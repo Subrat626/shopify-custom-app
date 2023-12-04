@@ -83,7 +83,6 @@ const CREATE_PRODUCTS_MUTATION = `
 export default async function productCreator(
   formData,
   session,
-  count = DEFAULT_PRODUCTS_COUNT
 ) {
   const client = new shopify.api.clients.Graphql({ session });
 
