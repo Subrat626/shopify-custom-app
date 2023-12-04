@@ -85,7 +85,6 @@ export default async function productCreator(
   session,
   count = DEFAULT_PRODUCTS_COUNT
 ) {
-  console.log(formData, "requestttttt")
   const client = new shopify.api.clients.Graphql({ session });
 
   try {
