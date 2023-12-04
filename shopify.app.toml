@@ -2,7 +2,7 @@
 
 name = "Custom-App"
 client_id = "568b1e50450f7bb8e79201f8e8f47b83"
-application_url = "https://trail-coaches-myspace-holder.trycloudflare.com"
+application_url = "https://up-brief-desktop-outer.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,10 +11,10 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://trail-coaches-myspace-holder.trycloudflare.com/auth/callback",
-  "https://trail-coaches-myspace-holder.trycloudflare.com/auth/shopify/callback",
-  "https://trail-coaches-myspace-holder.trycloudflare.com/api/auth/callback",
-  "https://trail-coaches-myspace-holder.trycloudflare.com/.shopify/graphiql/auth/callback"
+  "https://up-brief-desktop-outer.trycloudflare.com/auth/callback",
+  "https://up-brief-desktop-outer.trycloudflare.com/auth/shopify/callback",
+  "https://up-brief-desktop-outer.trycloudflare.com/api/auth/callback",
+  "https://up-brief-desktop-outer.trycloudflare.com/.shopify/graphiql/auth/callback"
 ]
 
 [webhooks]
