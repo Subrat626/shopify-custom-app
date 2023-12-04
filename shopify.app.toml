@@ -1,0 +1,28 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "Custom-App"
+client_id = "568b1e50450f7bb8e79201f8e8f47b83"
+application_url = "https://trail-coaches-myspace-holder.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://trail-coaches-myspace-holder.trycloudflare.com/auth/callback",
+  "https://trail-coaches-myspace-holder.trycloudflare.com/auth/shopify/callback",
+  "https://trail-coaches-myspace-holder.trycloudflare.com/api/auth/callback",
+  "https://trail-coaches-myspace-holder.trycloudflare.com/.shopify/graphiql/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "quickstart-a39d9622.myshopify.com"
